@@ -23,7 +23,7 @@ const RegisterClientPage = () => {
               return;
          }
 
-         const salt = bycrpyt.genSaltSync(10);
+        const salt = bycrpyt.genSaltSync(10);
         const hashedPassword = bycrpyt.hashSync(password, salt);
 
          try {
